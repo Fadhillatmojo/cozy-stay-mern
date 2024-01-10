@@ -11,7 +11,6 @@ export default function Header() {
 
 	// kepentingan toggle menu
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
-	const [isSticky, setIsSticky] = useState(false);
 
 	// set toggle menu 
 	const toggleMenu = () => {
