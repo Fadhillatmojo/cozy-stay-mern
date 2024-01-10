@@ -4,7 +4,7 @@ import propTypes from 'prop-types'
 
 export default function Button(props) {
 	const className = [props.className];
-	if (props.isPrimary) className.push('bg-brand-primary px-3 py-2 md:px-5 md:py-4 rounded-full text-white-secondaryWhite')
+	if (props.isPrimary) className.push('w-fit bg-brand-primary px-3 py-2 md:px-5 md:py-4 rounded-full text-white-secondaryWhite')
 	if (props.isLarge) className.push('btn-large')
 	if (props.isSmall) className.push('btn-small')
 	if (props.isBlock) className.push('btn-block')

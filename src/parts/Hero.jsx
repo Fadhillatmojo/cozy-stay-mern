@@ -10,12 +10,12 @@ export default function Hero() {
 				<h1 className='text-3xl md:text-5xl font-medium text-center md:text-left mt-8 md:mt-0'>
 					Forget Hectic Work, Start Joyfull Vacation With Us
 				</h1>
-				<p className='my-4 text-center md:text-center'>
+				<p className='my-4 text-center md:text-left'>
 					We provide what you need to enjoy your <br></br>
 					holiday with family. Time to make another <br></br>
 					memorable moments.
 				</p>
-				<Button isPrimary className='md:mt-8'>
+				<Button isPrimary className='md:mt-4 hover:bg-brand-dark'>
 					Show Me Some Place
 				</Button>
 			</div>
