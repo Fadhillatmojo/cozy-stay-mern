@@ -6,7 +6,7 @@ export default function Hero() {
   return (
 	<div className='bg-white w-full px-2 flex justify-center mt-20 md:mt-24'>
 		<div className="max-w-screen-lg w-full flex flex-col-reverse md:flex-row lg:space-x-16">
-			<div className='flex flex-col justify-center px-5 md:w-1/2'>
+			<div className='flex flex-col justify-center items-center md:items-start px-5 md:w-1/2'>
 				<h1 className='text-3xl lg:text-5xl font-medium text-center md:text-left mt-8 md:mt-0'>
 					Forget Hectic Work, Start Joyfull Vacation With Us
 				</h1>
