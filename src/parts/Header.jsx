@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useEffect, useState} from 'react'
 import IconLogo from '../pages/iconText'
 import Button from '../elements/buttons';
 import { useLocation } from 'react-router-dom';
@@ -32,8 +32,8 @@ export default function Header() {
 		];
 	return (
 		<>
-			<header className='text-black bg-white w-full px-2 flex justify-center border-b border-b-white-secondaryWhite '>
-				<nav className='flex justify-between items-center max-w-screen-lg w-full py-2 md:py-3'>
+			<header className={`fixed top-0 left-0 right-0 text-black bg-white-white w-full px-2 flex justify-center border-b border-b-white-secondaryWhite`}>
+				<nav className={`flex justify-between items-center max-w-screen-lg w-full py-2 md:py-3 `}>
 					<IconLogo/>
 					<ul className='hidden md:flex space-x-5 items-center'>
 						{
@@ -60,7 +60,8 @@ export default function Header() {
 					{/* end hamburger Menu btn for only mobile device */}
 				</nav>
 			</header>
-			<div className={`${isMenuOpen ? "flex-col" : "hidden"} md:hidden bg-white border-b border-b-white-secondaryWhite p-5`}>
+			{/* menu drop down yang tampil ketika menu toggle di klik */}
+			<div className={`${isMenuOpen ? "flex-col" : "hidden"} md:hidden bg-white border-b border-b-white-secondaryWhite mt-12 p-5`}>
 				<ul className='md:flex space-y-2 items-center'>
 					{
 						navItems.map( navLink =>

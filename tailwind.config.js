@@ -12,6 +12,7 @@ export default {
 					secondary: "#2B7DFF"
 				},
 				white: {
+					white: "#FFFFFF",
 					secondaryWhite: "#F7F8F9",
 					secondaryPurple: "#DFDEED",
 					primaryGrey: "#B3B3B3"
