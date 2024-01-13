@@ -61,7 +61,7 @@ export default function Header() {
 				</nav>
 			</header>
 			{/* menu drop down yang tampil ketika menu toggle di klik */}
-			<div className={`${isMenuOpen ? "flex-col" : "hidden"} md:hidden bg-white border-b border-b-white-secondaryWhite mt-12 p-5`}>
+			<div className={`${isMenuOpen ? "flex flex-col fixed top-3 left-0 right-0" : "hidden"} md:hidden bg-white-white border-b border-b-white-secondaryWhite mt-12 p-5`}>
 				<ul className='md:flex space-y-2 items-center'>
 					{
 						navItems.map( navLink =>

@@ -1,0 +1,24 @@
+<svg width="218" height="218" viewBox="0 0 218 218" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icon traveller">
+<g id="Rectangle 16" filter="url(#filter0_d_164_49)">
+<rect x="51" y="43.6356" width="116.729" height="116.729" rx="33.3511" fill="#F7F8F9"/>
+</g>
+<g id="icon-3">
+<path id="Ellipse 3" d="M133.544 129.515C133.544 131.425 131.796 133.925 127.169 136.093C122.742 138.169 116.449 139.52 109.364 139.52C102.279 139.52 95.9872 138.169 91.5598 136.093C86.9331 133.925 85.1849 131.425 85.1849 129.515C85.1849 127.604 86.9331 125.105 91.5598 122.936C95.9872 120.861 102.279 119.509 109.364 119.509C116.449 119.509 122.742 120.861 127.169 122.936C131.796 125.105 133.544 127.604 133.544 129.515Z" fill="#F7F8F9" stroke="#7267EB" stroke-width="5.00266"/>
+<path id="Ellipse 1" d="M130.209 84.3162C130.209 90.0425 127.713 101.421 123.562 111.416C121.496 116.391 119.091 120.848 116.512 124.015C113.869 127.26 111.44 128.681 109.364 128.681C107.289 128.681 104.86 127.26 102.217 124.015C99.6376 120.848 97.2324 116.391 95.1666 111.416C91.0161 101.421 88.52 90.0425 88.52 84.3162C88.52 73.4639 97.7471 64.48 109.364 64.48C120.982 64.48 130.209 73.4639 130.209 84.3162Z" fill="#F7F8F9" stroke="#7267EB" stroke-width="5.00266"/>
+<circle id="Ellipse 2" cx="109.364" cy="85.3244" r="7.50399" fill="#F7F8F9" stroke="#2B7DFF" stroke-width="5.00266"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_164_49" x="0.973404" y="0.279237" width="216.782" height="216.782" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="6.67021"/>
+<feGaussianBlur stdDeviation="25.0133"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_164_49"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_164_49" result="shape"/>
+</filter>
+</defs>
+</svg>

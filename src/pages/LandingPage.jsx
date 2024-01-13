@@ -1,3 +1,4 @@
+import IconSection from '../parts/IconSection'
 import Header from '../parts/Header'
 import Hero from '../parts/Hero'
 import React, { Component } from 'react'
@@ -8,6 +9,7 @@ export default class LandingPage extends Component {
 			<>
 			<Header />
 			<Hero />
+			<IconSection/>
 			</>
 		)
 	}
