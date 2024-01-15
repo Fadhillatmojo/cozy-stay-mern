@@ -11,7 +11,7 @@ export default function MostPicked(props) {
 						Most Picked
 					</h1>
 					<div className="max-w-screen-lg w-full mt-5">
-						<div className="grid grid-cols-3 gap-4 rounded-xl">
+						<div className="grid grid-cols-1 md:grid-cols-3 gap-4 rounded-xl">
 							<div className="relative col-span-1 row-span-2 cursor-pointer">
 								<img src={accommodations[0].imageUrl} alt="" />
 								<div className="absolute w-full h-full rounded-xl inset-0 bg-black opacity-40 transition-opacity duration-500 ease-in-out hover:opacity-10"></div>
@@ -38,7 +38,7 @@ export default function MostPicked(props) {
 											</h1>
 										</div>
 										<div className="absolute bottom-0 left-0 flex-col text-white-white p-4">
-											<h1 className='text-lg font-medium'>{accommodation.name}</h1>
+											<h1 className='text-md lg:text-lg font-medium'>{accommodation.name}</h1>
 											<p>{accommodation.city}, {accommodation.city}</p>
 										</div>
 									</div>
