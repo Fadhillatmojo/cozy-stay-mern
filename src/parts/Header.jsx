@@ -32,7 +32,7 @@ export default function Header() {
 		];
 	return (
 		<>
-			<header className={`fixed top-0 left-0 right-0 text-black bg-white-white w-full px-2 flex justify-center border-b border-b-white-secondaryWhite`}>
+			<header className={`fixed z-20 top-0 left-0 right-0 text-black bg-white-white w-full px-2 flex justify-center border-b border-b-white-secondaryWhite`}>
 				<nav className={`flex justify-between items-center max-w-screen-lg w-full py-2 md:py-3 `}>
 					<IconLogo/>
 					<ul className='hidden md:flex space-x-5 items-center'>
