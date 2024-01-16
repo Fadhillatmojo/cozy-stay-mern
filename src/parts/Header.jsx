@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react'
-import IconLogo from '../pages/iconText'
+import IconLogo from '../elements/iconText'
 import Button from '../elements/buttons';
 import { useLocation } from 'react-router-dom';
 import { FaXmark, FaBars } from "react-icons/fa6";
