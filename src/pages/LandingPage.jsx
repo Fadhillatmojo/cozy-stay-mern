@@ -1,8 +1,12 @@
 import React, { Component } from 'react'
+// parts
 import IconSection from '../parts/IconSection'
 import Header from '../parts/Header'
 import Hero from '../parts/Hero'
 import MostPicked from '../parts/MostPicked'
+import Category from '../parts/Category'
+
+// fetch data
 import fetchData from '../store/fetchData'
 
 export default class LandingPage extends Component {
@@ -29,6 +33,7 @@ export default class LandingPage extends Component {
 
 	render() {
 		const mostPickedData = this.state.landingData.mostPicked;
+		const categoriesData = this.state.landingData.categories;
 		return (
 			<>
 			<Header />
@@ -36,6 +41,9 @@ export default class LandingPage extends Component {
 			<IconSection/>
 			{mostPickedData && (
 				<MostPicked dataMostPicked={mostPickedData} />
+			)}
+			{categoriesData && (
+				<Category dataCategories={categoriesData} />
 			)}
 			</>
 		)
