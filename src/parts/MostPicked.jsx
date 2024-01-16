@@ -4,7 +4,7 @@ import {Fade} from 'react-reveal'
 export default function MostPicked(props) {
 	const accommodations = props.dataMostPicked;
 	return (
-		<div className='bg-white w-full px-2 flex justify-center mt-20 md:mt-24 py-10'>
+		<div className='bg-white w-full px-2 flex justify-center pt-10 pb-5 md:pb-10'>
 			<Fade bottom>
 				<div className="flex-col">
 					<h1 className=' font-medium text-xl md:text-2xl'>
@@ -28,7 +28,7 @@ export default function MostPicked(props) {
 							</div>
 							{
 								accommodations.map((accommodation, index) =>
-									<div key={accommodation._id}  className={`relative group ${index===0 ? 'hidden': 'col-span1'} cursor-pointer`}>
+									<div key={accommodation._id} className={`relative group ${index===0 ? 'hidden': 'col-span1'} cursor-pointer`}>
 										<img src={accommodation.imageUrl} className='w-full h-full' alt="tes" />
 										<div className="absolute w-full h-full rounded-xl inset-0 bg-black opacity-40 transition-opacity duration-500 ease-in-out group-hover:opacity-10"></div>
 										<div className="absolute right-0 top-0 px-8 py-2 bg-brand-primary rounded-tr-xl rounded-bl-xl text-white-white">
