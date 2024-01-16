@@ -12,9 +12,9 @@ export default function MostPicked(props) {
 					</h1>
 					<div className="max-w-screen-lg w-full mt-5">
 						<div className="grid grid-cols-1 md:grid-cols-3 gap-4 rounded-xl">
-							<div className="relative col-span-1 row-span-2 cursor-pointer">
+							<div className="relative col-span-1 row-span-2 cursor-pointer group">
 								<img src={accommodations[0].imageUrl} alt="" />
-								<div className="absolute w-full h-full rounded-xl inset-0 bg-black opacity-40 transition-opacity duration-500 ease-in-out hover:opacity-10"></div>
+								<div className="absolute w-full h-full rounded-xl inset-0 bg-black opacity-40 transition-opacity duration-500 ease-in-out group-hover:opacity-10"></div>
 								<div className="absolute right-0 top-0 px-12 py-3 bg-brand-primary rounded-tr-xl rounded-bl-xl text-white-white">
 									<h1>
 										<span className='font-medium'>{accommodations[0].price}$ </span>
@@ -28,9 +28,9 @@ export default function MostPicked(props) {
 							</div>
 							{
 								accommodations.map((accommodation, index) =>
-									<div key={accommodation._id}  className={`relative ${index===0 ? 'hidden': 'col-span1'} cursor-pointer`}>
+									<div key={accommodation._id}  className={`relative group ${index===0 ? 'hidden': 'col-span1'} cursor-pointer`}>
 										<img src={accommodation.imageUrl} className='w-full h-full' alt="tes" />
-										<div className="absolute w-full h-full rounded-xl inset-0 bg-black opacity-40 transition-opacity duration-500 ease-in-out hover:opacity-10"></div>
+										<div className="absolute w-full h-full rounded-xl inset-0 bg-black opacity-40 transition-opacity duration-500 ease-in-out group-hover:opacity-10"></div>
 										<div className="absolute right-0 top-0 px-8 py-2 bg-brand-primary rounded-tr-xl rounded-bl-xl text-white-white">
 											<h1>
 												<span className='font-medium'>{accommodation.price}$  </span>
