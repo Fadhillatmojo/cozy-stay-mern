@@ -7,7 +7,7 @@ export default function Category(props) {
   return (
 		<div className="bg-white w-full px-2 flex justify-center py-5 md:py-10">
 			<Fade bottom>
-				<div className="max-w-screen-lg w-full flex-col space-y-12">
+				<div className="max-w-screen-lg w-full flex flex-col space-y-12">
 					{
 						categories.map(category =>
 							// div untuk per kategory
