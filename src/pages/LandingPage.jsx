@@ -5,6 +5,7 @@ import Header from '../parts/Header'
 import Hero from '../parts/Hero'
 import MostPicked from '../parts/MostPicked'
 import Category from '../parts/Category'
+import Testimonial from '../parts/Testimonial'
 
 // fetch data
 import fetchData from '../store/fetchData'
@@ -34,6 +35,7 @@ export default class LandingPage extends Component {
 	render() {
 		const mostPickedData = this.state.landingData.mostPicked;
 		const categoriesData = this.state.landingData.categories;
+		const testimonialData =this.state.landingData.testimonial;
 		return (
 			<>
 			<Header />
@@ -44,6 +46,9 @@ export default class LandingPage extends Component {
 			)}
 			{categoriesData && (
 				<Category dataCategories={categoriesData} />
+			)}
+			{testimonialData && (
+				<Testimonial dataTestimonial={testimonialData} />
 			)}
 			</>
 		)
