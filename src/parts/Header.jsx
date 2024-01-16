@@ -32,7 +32,7 @@ export default function Header() {
 		];
 	return (
 		<>
-			<header className={`fixed z-20 top-0 left-0 right-0 text-black bg-white-white w-full px-2 flex justify-center border-b border-b-white-secondaryWhite`}>
+			<header className={`fixed z-50 top-0 left-0 right-0 text-black bg-white-white w-full px-2 flex justify-center border-b border-b-white-secondaryWhite`}>
 				<nav className={`flex justify-between items-center max-w-screen-lg w-full py-2 md:py-3 `}>
 					<IconLogo/>
 					<ul className='hidden md:flex space-x-5 items-center'>
@@ -61,7 +61,7 @@ export default function Header() {
 				</nav>
 			</header>
 			{/* menu drop down yang tampil ketika menu toggle di klik */}
-			<div className={`${isMenuOpen ? "flex flex-col fixed top-3 left-0 right-0" : "hidden"} md:hidden bg-white-white border-b border-b-white-secondaryWhite mt-12 p-5`}>
+			<div className={`${isMenuOpen ? "flex flex-col fixed top-3 left-0 right-0 z-50" : "hidden"} md:hidden bg-white-white border-b border-b-white-secondaryWhite mt-12 p-5`}>
 				<ul className='md:flex space-y-2 items-center'>
 					{
 						navItems.map( navLink =>
